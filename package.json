@@ -1,0 +1,23 @@
+{
+  "name": "html_to_md",
+  "version": "1.0.0",
+  "description": "Convert ChatGPT saved HTML conversations to clean Markdown (.md) files.",
+  "author": "tontonCasi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Casimodo/html_to_md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Casimodo/html_to_md/issues"
+  },
+  "homepage": "https://github.com/Casimodo/html_to_md#readme",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "convert": "node convert.js path_to_convert/test.html path_to_convert/output.md"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

@@ -41,6 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Working directories
+path_to_convert/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
